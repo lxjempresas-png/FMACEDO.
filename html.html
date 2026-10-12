@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>F Macedo | Soluções em Esquadrias</title>
+<meta name="description" content="F Macedo: esquadrias de alumínio, manutenção e motorização de persianas integradas. Grande São Paulo, Litoral e Interior.">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0F4C8A;--blue-d:#0A3563;--orange:#F28A1E;--orange-d:#D9730C;--gray:#5C6773;--light:#F3F6F9;--line:#DCE3EA;--bg:#fff;--ink:#1B2530;--card:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10161d;--light:#17202a;--line:#2a3643;--ink:#EAF0F6;--gray:#A9B5C1;--card:#1a2430;--blue:#4A90D9}}
+:root[data-theme="dark"]{--bg:#10161d;--light:#17202a;--line:#2a3643;--ink:#EAF0F6;--gray:#A9B5C1;--card:#1a2430;--blue:#4A90D9}
+*,*:before,*:after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(84px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif;line-height:1.1;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:76px}
+.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1.1}
+.brand b{font:800 28px Archivo,sans-serif;color:var(--blue);letter-spacing:-.01em}
+.brand span{font-size:16px;font-weight:600;color:var(--gray);margin-top:3px}
+nav{display:flex;gap:26px;align-items:center}
+nav a{text-decoration:none;font-weight:600;color:var(--gray)}
+nav a:hover{color:var(--blue)}
+.btn{display:inline-block;background:var(--orange);color:#1B1206;font-weight:600;text-decoration:none;padding:14px 26px;border-radius:4px;transition:background .2s}
+.btn:hover{background:var(--orange-d);color:#fff}
+.hero{background:linear-gradient(135deg,var(--blue-d),var(--blue));color:#fff}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding-top:80px;padding-bottom:88px}
+.hero h1{font-size:clamp(40px,6vw,72px);font-weight:800;letter-spacing:-.02em}
+.hero .loc{font:700 clamp(20px,2.4vw,28px) Archivo,sans-serif;color:#FFC27A;margin:18px 0 0}
+.hero p.lead{max-width:46ch;margin:22px 0 32px;color:#E6EEF7}
+.frame{width:100%;height:auto;display:block;filter:drop-shadow(0 24px 40px rgba(0,0,0,.28))}
+.pane-a{animation:slide 2.4s .3s cubic-bezier(.6,0,.2,1) both}
+@keyframes slide{from{transform:translateX(-118px)}to{transform:none}}
+section{padding:84px 0}
+.alt{background:var(--light)}
+h2{font-size:clamp(28px,4vw,40px);font-weight:800;color:var(--blue);letter-spacing:-.01em;margin-bottom:12px}
+.sub{color:var(--gray);max-width:60ch;margin:0 0 40px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--blue);padding:28px;border-radius:4px}
+.card h3{font-size:21px;margin-bottom:10px;color:var(--ink)}
+.card p{margin:0;color:var(--gray)}
+.diff .card{border-top-color:var(--orange)}
+.insta{background:var(--blue-d);color:#fff;text-align:center}
+.insta h2{color:#fff}
+.insta p{max-width:56ch;margin:0 auto 30px;color:#DCE8F5}
+footer{background:#0A2442;color:#B5C4D6;padding:28px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-top:56px;padding-bottom:60px}.grid{grid-template-columns:1fr}nav a:not(.btn){display:none}section{padding:60px 0}.brand b{font-size:24px}.brand span{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.pane-a{animation:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#inicio" aria-label="F Macedo, Soluções em Esquadrias"><b>F Macedo</b><span>Soluções em Esquadrias</span></a>
+    <nav aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#contato" class="btn">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero" id="inicio">
+  <div class="wrap">
+    <div>
+      <h1>Esquadrias de alumínio</h1>
+      <p class="loc">Grande São Paulo, Litoral e Interior</p>
+      <p class="lead">Projeto, instalação e cuidado contínuo das esquadrias da sua obra ou residência.</p>
+      <a class="btn" href="#contato">Solicitar orçamento</a>
+    </div>
+    <svg class="frame" viewBox="0 0 420 340" role="img" aria-label="Ilustração de esquadria de alumínio de correr">
+      <rect x="10" y="10" width="400" height="320" rx="4" fill="#C9D3DD"/>
+      <rect x="22" y="22" width="376" height="296" fill="#8FB8E0"/>
+      <rect x="22" y="22" width="376" height="296" fill="url(#g)"/>
+      <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".25"/></linearGradient></defs>
+      <g class="pane-a"><rect x="22" y="22" width="196" height="296" fill="#A9CBEA" fill-opacity=".6" stroke="#E3EAF1" stroke-width="12"/><rect x="26" y="26" width="188" height="288" fill="none" stroke="#9AA8B6" stroke-width="2"/></g>
+      <rect x="202" y="22" width="196" height="296" fill="#A9CBEA" fill-opacity=".35" stroke="#F3F6F9" stroke-width="12"/>
+      <rect x="206" y="26" width="188" height="288" fill="none" stroke="#9AA8B6" stroke-width="2"/>
+      <rect x="200" y="150" width="6" height="46" rx="3" fill="#F28A1E"/>
+    </svg>
+  </div>
+</div>
+
+<section id="servicos">
+  <div class="wrap">
+    <h2>Serviços</h2>
+    <p class="sub">Atendemos a Grande São Paulo, Litoral e Interior.</p>
+    <div class="grid">
+      <article class="card"><h3>Esquadrias de alumínio</h3><p>Fornecimento e instalação de esquadrias de alumínio para residências e obras.</p></article>
+      <article class="card"><h3>Manutenção e motorização de persianas integradas</h3><p>Serviços especializados para garantir o perfeito funcionamento das suas persianas.</p></article>
+      <article class="card"><h3>Limpeza</h3><p>Limpeza especializada de esquadrias.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="diferenciais" class="alt diff">
+  <div class="wrap">
+    <h2>Por que escolher a F Macedo</h2>
+    <p class="sub">O que você encontra ao contratar a F Macedo.</p>
+    <div class="grid">
+      <article class="card"><h3>Soluções completas</h3><p>Do fornecimento à manutenção</p></article>
+      <article class="card"><h3>Atendimento regional</h3><p>Grande São Paulo, Litoral e Interior.</p></article>
+      <article class="card"><h3>Foco em alumínio</h3><p>Esquadrias com acabamento cuidadoso e visual moderno.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="insta" id="contato">
+  <div class="wrap">
+    <h2>Fale com a F Macedo</h2>
+    <p>Acompanhe nossos projetos, confira instalações, acabamentos e bastidores do nosso trabalho no Instagram.</p>
+    <a class="btn" href="#" rel="noopener">Ver no Instagram</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><span>F Macedo | Soluções em Esquadrias</span><span>Grande São Paulo, Litoral e Interior</span></div>
+</footer>
+</body>
+</html>
